@@ -17,6 +17,9 @@ h1{
     height:120%;
     padding-right: 10px;
 }
+p{
+    color:rgba(112, 85, 66, 0.753);
+}
 h4{
     color: aqua;
     font-size: 20px;

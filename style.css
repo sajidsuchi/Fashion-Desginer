@@ -11,6 +11,7 @@ h1{
 .open{
     width:50%;
     padding-left: 20px;
+
 }
 .open img{
     width:750px;
@@ -24,13 +25,17 @@ h4{
     color: aqua;
     font-size: 20px;
 }
-section{
+.flexible-container{
     display:flex;
+    margin-bottom: 20px;
 }
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+h2
+{color:red;}
+
 .button{
     text-decoration: none;
     padding: 10px 30px;
@@ -41,4 +46,55 @@ section{
     color:red;
     background-image: linear-gradient(DeepPink,HotPink,LightCoral,Red);
     border-radius: 5px;
+}
+.super{
+    margin-top: 200px;
+    padding: 20px;
+}
+.fine{
+    width:50%;
+    padding-right: 70px;
+}
+.fine img{
+    width: 500px;
+
+}
+.again{
+    color: yellowgreen;
+}
+.super{
+    background-image: url(images/dream-bg\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.win{
+    width:50%;
+    padding-left: 5px;
+padding-right: 70px;
+}
+.end{
+    width:50%;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius:5px;
+    border-left:10px solid;
+    box-shadow: 30px 30px  50px PaleTurquoise ;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+#full-stack{ 
+    border-left-color: YellowGreen;
+}
+#baby-web{
+    border-image:linear-gradient(red,Crimson,OrangeRed ) 20; 
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
+    padding-top: 20px;
 }
